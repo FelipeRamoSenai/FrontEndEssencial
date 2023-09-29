@@ -1,19 +1,39 @@
-html{background-image: url(FundoPreto.png);
-    height: 100%;
-
+body {
+    background-image: url(FundoPreto.png);
+    display: flex;  
+    height: 100vh;
+    width: 100vw;
 }
-
-.nome{
-    text-align: center;
-
-}
-
-body{
-    background-image: url('FundoCurriculo.png');
-    background-size: contain;
-    background-position: center center;
-    background-attachment: fixed;
+.fundo_rosa{
+    background-image: url(FundoCurriculo.png);
+    width: 700px;
+    height: 900px;
     background-repeat: no-repeat;
-    height: 100%;
-    background-color: transparent;
+    background-size: cover;
+    margin: auto;
+    display: flex;
+
+}
+.fundo_branco {
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+
+
+
+}
+.conteudo {
+    margin: 30px;
+    
+}
+.icones {
+    height: 40px;
+    width: 40px;
+
+}
+.posicao_icones {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
 }
